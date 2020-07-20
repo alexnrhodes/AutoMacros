@@ -54,6 +54,8 @@
 		387143DF24C6552300D1C6C4 /* AutoMacros */ = {
 			isa = PBXGroup;
 			children = (
+				387143F624C655B900D1C6C4 /* SwiftUI */,
+				387143F524C655A500D1C6C4 /* Models */,
 				387143F424C6553E00D1C6C4 /* Resources */,
 				387143EB24C6552400D1C6C4 /* LaunchScreen.storyboard */,
 				387143E824C6552400D1C6C4 /* Preview Content */,
@@ -78,6 +80,52 @@
 				387143EE24C6552400D1C6C4 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		387143F524C655A500D1C6C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		387143F624C655B900D1C6C4 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				387143FA24C655F300D1C6C4 /* Onboarding */,
+				387143F924C655E800D1C6C4 /* Tabs */,
+				387143F824C655E200D1C6C4 /* Login */,
+				387143F724C655D900D1C6C4 /* Settings */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		387143F724C655D900D1C6C4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		387143F824C655E200D1C6C4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		387143F924C655E800D1C6C4 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		387143FA24C655F300D1C6C4 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
