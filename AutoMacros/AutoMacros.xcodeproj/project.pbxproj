@@ -24,6 +24,8 @@
 		3871440E24C6565300D1C6C4 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871440C24C6565300D1C6C4 /* Register.swift */; };
 		3871441024C6565D00D1C6C4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871440F24C6565D00D1C6C4 /* Settings.swift */; };
 		3871441324C6572000D1C6C4 /* SunburstDiagram in Frameworks */ = {isa = PBXBuildFile; productRef = 3871441224C6572000D1C6C4 /* SunburstDiagram */; };
+		3871441624C7990D00D1C6C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871441424C7990C00D1C6C4 /* User.swift */; };
+		3871441724C7990D00D1C6C4 /* MacroSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871441524C7990D00D1C6C4 /* MacroSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		3871440B24C6565300D1C6C4 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		3871440C24C6565300D1C6C4 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		3871440F24C6565D00D1C6C4 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3871441424C7990C00D1C6C4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3871441524C7990D00D1C6C4 /* MacroSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacroSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		387143F524C655A500D1C6C4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3871441524C7990D00D1C6C4 /* MacroSet.swift */,
+				3871441424C7990C00D1C6C4 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -246,6 +252,8 @@
 				3871440124C6563C00D1C6C4 /* Onboarding2.swift in Sources */,
 				3871440224C6563C00D1C6C4 /* Onboarding5.swift in Sources */,
 				3871440824C6564700D1C6C4 /* HomeScreen.swift in Sources */,
+				3871441724C7990D00D1C6C4 /* MacroSet.swift in Sources */,
+				3871441624C7990D00D1C6C4 /* User.swift in Sources */,
 				387143E124C6552300D1C6C4 /* AppDelegate.swift in Sources */,
 				3871440E24C6565300D1C6C4 /* Register.swift in Sources */,
 				387143E324C6552300D1C6C4 /* SceneDelegate.swift in Sources */,
