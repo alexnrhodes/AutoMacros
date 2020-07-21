@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,18 @@
 		387143E724C6552400D1C6C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387143E624C6552400D1C6C4 /* Assets.xcassets */; };
 		387143EA24C6552400D1C6C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387143E924C6552400D1C6C4 /* Preview Assets.xcassets */; };
 		387143ED24C6552400D1C6C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387143EB24C6552400D1C6C4 /* LaunchScreen.storyboard */; };
+		3871440024C6563C00D1C6C4 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387143FB24C6563B00D1C6C4 /* Onboarding.swift */; };
+		3871440124C6563C00D1C6C4 /* Onboarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387143FC24C6563B00D1C6C4 /* Onboarding2.swift */; };
+		3871440224C6563C00D1C6C4 /* Onboarding5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387143FD24C6563B00D1C6C4 /* Onboarding5.swift */; };
+		3871440324C6563C00D1C6C4 /* Onboarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387143FE24C6563B00D1C6C4 /* Onboarding3.swift */; };
+		3871440424C6563C00D1C6C4 /* Onboarding4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387143FF24C6563B00D1C6C4 /* Onboarding4.swift */; };
+		3871440824C6564700D1C6C4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871440524C6564700D1C6C4 /* HomeScreen.swift */; };
+		3871440924C6564700D1C6C4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871440624C6564700D1C6C4 /* Profile.swift */; };
+		3871440A24C6564700D1C6C4 /* AddMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871440724C6564700D1C6C4 /* AddMacros.swift */; };
+		3871440D24C6565300D1C6C4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871440B24C6565300D1C6C4 /* Login.swift */; };
+		3871440E24C6565300D1C6C4 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871440C24C6565300D1C6C4 /* Register.swift */; };
+		3871441024C6565D00D1C6C4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3871440F24C6565D00D1C6C4 /* Settings.swift */; };
+		3871441324C6572000D1C6C4 /* SunburstDiagram in Frameworks */ = {isa = PBXBuildFile; productRef = 3871441224C6572000D1C6C4 /* SunburstDiagram */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,17 @@
 		387143E924C6552400D1C6C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		387143EC24C6552400D1C6C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		387143EE24C6552400D1C6C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387143FB24C6563B00D1C6C4 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		387143FC24C6563B00D1C6C4 /* Onboarding2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding2.swift; sourceTree = "<group>"; };
+		387143FD24C6563B00D1C6C4 /* Onboarding5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding5.swift; sourceTree = "<group>"; };
+		387143FE24C6563B00D1C6C4 /* Onboarding3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding3.swift; sourceTree = "<group>"; };
+		387143FF24C6563B00D1C6C4 /* Onboarding4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding4.swift; sourceTree = "<group>"; };
+		3871440524C6564700D1C6C4 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		3871440624C6564700D1C6C4 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		3871440724C6564700D1C6C4 /* AddMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMacros.swift; sourceTree = "<group>"; };
+		3871440B24C6565300D1C6C4 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3871440C24C6565300D1C6C4 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		3871440F24C6565D00D1C6C4 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3871441324C6572000D1C6C4 /* SunburstDiagram in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +127,7 @@
 		387143F724C655D900D1C6C4 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				3871440F24C6565D00D1C6C4 /* Settings.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -110,6 +135,8 @@
 		387143F824C655E200D1C6C4 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				3871440B24C6565300D1C6C4 /* Login.swift */,
+				3871440C24C6565300D1C6C4 /* Register.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -117,6 +144,9 @@
 		387143F924C655E800D1C6C4 /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				3871440524C6564700D1C6C4 /* HomeScreen.swift */,
+				3871440624C6564700D1C6C4 /* Profile.swift */,
+				3871440724C6564700D1C6C4 /* AddMacros.swift */,
 			);
 			path = Tabs;
 			sourceTree = "<group>";
@@ -124,6 +154,11 @@
 		387143FA24C655F300D1C6C4 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				387143FB24C6563B00D1C6C4 /* Onboarding.swift */,
+				387143FC24C6563B00D1C6C4 /* Onboarding2.swift */,
+				387143FE24C6563B00D1C6C4 /* Onboarding3.swift */,
+				387143FF24C6563B00D1C6C4 /* Onboarding4.swift */,
+				387143FD24C6563B00D1C6C4 /* Onboarding5.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -144,6 +179,9 @@
 			dependencies = (
 			);
 			name = AutoMacros;
+			packageProductDependencies = (
+				3871441224C6572000D1C6C4 /* SunburstDiagram */,
+			);
 			productName = AutoMacros;
 			productReference = 387143DD24C6552300D1C6C4 /* AutoMacros.app */;
 			productType = "com.apple.product-type.application";
@@ -172,6 +210,9 @@
 				Base,
 			);
 			mainGroup = 387143D424C6552300D1C6C4;
+			packageReferences = (
+				3871441124C6572000D1C6C4 /* XCRemoteSwiftPackageReference "SwiftSunburstDiagram" */,
+			);
 			productRefGroup = 387143DE24C6552300D1C6C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -199,8 +240,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3871440324C6563C00D1C6C4 /* Onboarding3.swift in Sources */,
+				3871440024C6563C00D1C6C4 /* Onboarding.swift in Sources */,
+				3871441024C6565D00D1C6C4 /* Settings.swift in Sources */,
+				3871440124C6563C00D1C6C4 /* Onboarding2.swift in Sources */,
+				3871440224C6563C00D1C6C4 /* Onboarding5.swift in Sources */,
+				3871440824C6564700D1C6C4 /* HomeScreen.swift in Sources */,
 				387143E124C6552300D1C6C4 /* AppDelegate.swift in Sources */,
+				3871440E24C6565300D1C6C4 /* Register.swift in Sources */,
 				387143E324C6552300D1C6C4 /* SceneDelegate.swift in Sources */,
+				3871440924C6564700D1C6C4 /* Profile.swift in Sources */,
+				3871440A24C6564700D1C6C4 /* AddMacros.swift in Sources */,
+				3871440D24C6565300D1C6C4 /* Login.swift in Sources */,
+				3871440424C6563C00D1C6C4 /* Onboarding4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +392,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AutoMacros/Preview Content\"";
 				DEVELOPMENT_TEAM = RCQFNX9QQ7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AutoMacros/Info.plist;
+				INFOPLIST_FILE = AutoMacros/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +412,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AutoMacros/Preview Content\"";
 				DEVELOPMENT_TEAM = RCQFNX9QQ7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AutoMacros/Info.plist;
+				INFOPLIST_FILE = AutoMacros/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +446,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3871441124C6572000D1C6C4 /* XCRemoteSwiftPackageReference "SwiftSunburstDiagram" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lludo/SwiftSunburstDiagram";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3871441224C6572000D1C6C4 /* SunburstDiagram */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3871441124C6572000D1C6C4 /* XCRemoteSwiftPackageReference "SwiftSunburstDiagram" */;
+			productName = SunburstDiagram;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 387143D524C6552300D1C6C4 /* Project object */;
 }

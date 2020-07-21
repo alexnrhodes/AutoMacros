@@ -9,24 +9,28 @@
 import SwiftUI
 
 struct Onboarding2: View {
+    init() {
+        //        //Use this if NavigationBarTitle is with displayMode = .inline
+        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont(name: "AvenirNext-Bold", size: 14)!]
+        UINavigationBar.appearance().tintColor = .black
+        UINavigationBar.appearance().barTintColor = .white
+        
+        
+    }
+    
     @State var username: String = ""
     
     var body: some View {
         VStack() {
-            VStack() {
-                Text("Question 1 of 5")
-                    .font(Font.custom("AvenirNext-Bold", size: 14))
-                
-                ZStack(alignment: .leading) {
-                    Rectangle()
-                        .frame(width: UIScreen.screenWidth, height: 1, alignment: .center)
-                        .foregroundColor(Color.gray)
-                    Rectangle()
-                        .frame(width: UIScreen.screenWidth * 0.2, height: 5, alignment: .center)
-                        .foregroundColor(Color.orange)
-                    
-                }
-            }.padding(.top, 10)
+            
+            HStack(alignment: .center) {
+        
+                Rectangle()
+                    .frame(width: UIScreen.screenWidth * 0.2, height: 5, alignment: .leading)
+                    .foregroundColor(Color.orange)
+                Spacer()
+            }.padding(.top, -2)
+            
             
             Spacer()
             
@@ -57,7 +61,8 @@ struct Onboarding2: View {
                 Button("", action: {})
             }.padding(.trailing, 0)
             
-        }
+        }.navigationBarTitle("Question 1 of 5", displayMode: .inline)
+        
     }
 }
 
