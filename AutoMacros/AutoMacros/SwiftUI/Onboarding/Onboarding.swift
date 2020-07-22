@@ -58,6 +58,7 @@ struct Onboarding: View {
                         }
                         NavigationLink(destination: Onboarding2()) {
                             Rectangle()
+                                 .frame(width: UIScreen.screenWidth * 0.8, height: 100, alignment: .center)
                                 .foregroundColor(.clear)
                         }
                         
@@ -81,6 +82,7 @@ struct Onboarding: View {
                         }
                         NavigationLink(destination: Onboarding2()) {
                             Rectangle()
+                                 .frame(width: UIScreen.screenWidth * 0.8, height: 100, alignment: .center)
                                 .foregroundColor(.clear)
                         }
                     }
@@ -105,11 +107,12 @@ struct Onboarding: View {
                         }
                         NavigationLink(destination: Onboarding2()) {
                             Rectangle()
+                                .frame(width: UIScreen.screenWidth * 0.8, height: 100, alignment: .center)
                                 .foregroundColor(.clear)
                         }
                     }
                 }
-                Spacer(minLength: 60)
+                Spacer()
             }
             .navigationBarTitle("")
             .navigationBarHidden(self.navBarHidden)
@@ -119,6 +122,7 @@ struct Onboarding: View {
             .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
                 self.navBarHidden = false
             }
+            
         }
     }
     

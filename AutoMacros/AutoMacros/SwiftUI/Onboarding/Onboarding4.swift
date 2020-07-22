@@ -103,11 +103,14 @@ struct Onboarding4: View {
             HStack() {
                 Spacer()
                 ZStack() {
+                    NavigationLink(destination: Onboarding5()) {
+
                     Image("BlackLogoTriangleOnly")
                         .resizable()
                         .frame(width: UIScreen.screenWidth * 0.3, height: UIScreen.screenWidth * 0.3, alignment: .center)
                 }
                 Button("", action: {})
+                }
             }.padding(.trailing, 0)
             
         }
