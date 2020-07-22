@@ -128,7 +128,8 @@ struct HomeScreen: View {
                                    .padding()
                                    .padding(.horizontal, 22)
                                    .background(CurvedShape())
-                               
+                            NavigationLink(destination: AddMacros()) {
+
                                Button(action: {
                                    
                                }) {
@@ -139,6 +140,7 @@ struct HomeScreen: View {
                                .clipShape(Circle())
                                .offset(y: -10)
                                .shadow(radius: 5)
+                            }
                                
                            }
                            
