@@ -92,7 +92,7 @@ struct Onboarding: View {
                             .foregroundColor(Color.white)
                             .shadow(color: Color.gray.opacity(0.3), radius: 5, x: 0, y: 5)
                             .frame(width: UIScreen.screenWidth * 0.8, height: 100, alignment: .center)
-                        
+
                         Button(action: {print("clicked")}) {
                             
                             VStack(alignment: .leading, spacing: 0) {
@@ -104,7 +104,7 @@ struct Onboarding: View {
                                     .font(Font.custom("AvenirNext-Medium", size: 12))
                             }.frame(width: UIScreen.screenWidth*0.8, height: 100, alignment: .leading).padding(.leading, 30)
                             
-                        }
+                            }
                         NavigationLink(destination: Onboarding2()) {
                             Rectangle()
                                 .frame(width: UIScreen.screenWidth * 0.8, height: 100, alignment: .center)

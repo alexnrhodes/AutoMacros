@@ -43,20 +43,27 @@ struct Register: View {
                     .padding()
                     .font(Font.custom("AvenirNext-Medium", size: 12))
                 ZStack() {
+                  
                     RoundedRectangle(cornerRadius: .infinity)
                         .foregroundColor(Color.orange)
                         .shadow(color: Color.gray.opacity(0.3), radius: 5, x: 0, y: 5)
                         .frame(width: UIScreen.screenWidth * 0.8, height: 40, alignment: .center)
                     Button(action: {}) {
                         HStack(alignment: .center, spacing: 10) {
+                            NavigationLink(destination: HomeScreen()) {
+
                             Text("Register")
                                 .foregroundColor(Color.white)
                                 .font(Font.custom("AvenirNext-Bold", size: 14))
-                            
+                            }
                         }.frame(width: UIScreen.screenWidth*0.8, height: 30, alignment: .center)
                         
                     }
-                    
+                    NavigationLink(destination: HomeScreen()) {
+                    RoundedRectangle(cornerRadius: .infinity)
+                    .foregroundColor(Color.clear)
+                    .frame(width: UIScreen.screenWidth * 0.8, height: 40, alignment: .center)
+                    }
                 }
                 Spacer()
                 
